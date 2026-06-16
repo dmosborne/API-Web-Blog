@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "type": "module",
-  "scripts": {
-    "test": "npm i" && "node inex.js" && "node server.js"
+  "scripts": "npm i", "node inex.js","node server.js";
+    "test": {
   },
   "keywords": [],
   "author": "",
