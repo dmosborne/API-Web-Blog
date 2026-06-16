@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "type": "module",
-  "scripts": "npm i", "node inex.js","node server.js",
-    "test": {
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
@@ -17,3 +17,4 @@
     "express": "^4.18.2"
   }
 }
+
