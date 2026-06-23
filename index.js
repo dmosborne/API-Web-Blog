@@ -74,7 +74,7 @@ app.post("/posts", (req, res) => {
     date: new Date(),
   };
   lastId = newId;
-  posts=push(post);
+  posts = .push(post);
   res.status(201).json(post);
 });
 
