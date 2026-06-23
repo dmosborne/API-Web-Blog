@@ -4,6 +4,12 @@ import bodyParser from "body-parser";
 const app = express();
 const port = process.env.PORT || 4000;
 
+
+// Homepage route
+app.get("/", (req, res) => {
+  res.send("API Web Blog is running!");
+});
+
 // In-memory data store
 let posts = [
   {
