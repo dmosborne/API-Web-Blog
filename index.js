@@ -41,10 +41,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 //Write your code here//
 
 
-app.get("/", (req, res) => {
-    res.render("index.ejs");
-});
-
 //CHALLENGE 1: GET All posts
 app.get("/posts", (req, res) => {
 console.log(posts);
